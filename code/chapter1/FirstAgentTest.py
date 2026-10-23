@@ -23,7 +23,7 @@ Action的格式必须是以下之一：
 请开始吧！
 """
 
-import requests
+import requests # 用于调用天气API
 
 def get_weather(city: str) -> str:
     """
